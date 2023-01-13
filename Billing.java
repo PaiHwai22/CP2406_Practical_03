@@ -1,3 +1,4 @@
+/*This is a Billing Class with 3 overloaded methods. */
 public class Billing {
     private static float computeBill(float priceBook) {
         float tax = (priceBook/100) * 8;  // get 8% tax
