@@ -1,9 +1,10 @@
 import java.util.Scanner;
+
 /*This is percentages class using user input for 2 variables. */
 public class Percentages2 {
     public static void main(String[] args) {
         Scanner getDouble = new Scanner(System.in);
-        System.out.println("Enter two decimal numbers for a and  b: " );
+        System.out.println("Enter two decimal numbers for a and  b: ");
         double a = getDouble.nextDouble();
         double b = getDouble.nextDouble();
         System.out.println("Your 2 numbers are: " + a + " and " + b + ".");

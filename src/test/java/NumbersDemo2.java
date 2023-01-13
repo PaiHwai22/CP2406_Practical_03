@@ -4,15 +4,15 @@ import java.util.Scanner;
 public class NumbersDemo2 {
     public static void main(String[] args) {
         Scanner getInt = new Scanner(System.in);
-        System.out.println("Enter 2 integer numbers for a and  b: " );
+        System.out.println("Enter 2 integer numbers for a and  b: ");
         int a = getInt.nextInt();
         int b = getInt.nextInt();
-        displayNumberSquared(a,b);
-        displayNumberPlusFive(a,b);
-        displayTwiceTheNumber(a,b);
+        displayNumberSquared(a, b);
+        displayNumberPlusFive(a, b);
+        displayTwiceTheNumber(a, b);
 
     }
-    
+
     public static void displayTwiceTheNumber(int a, int b) {
         a = a * 2;
         b = b * 2;
